@@ -1,0 +1,136 @@
+:root{
+    --folder-color:#0099a8;
+    --text-color:#181a1e;
+} .dash-left span{
+    color: var(--folder-color);
+    border: 1px solid#ddcdcd;
+    padding: 5px 4px;
+    font-size: 34px;
+    border-radius: 3px;
+cursor: pointer;
+transition: 1s;
+}
+
+.dash-left span:hover{
+    transform: rotate(360deg);
+    color: white;
+    background-color:  var(--folder-color);
+}
+.dash-left button{
+    background: var(--folder-color);
+    color: white;
+    padding: 9px 11px;
+    margin-right: 9px;
+    border-radius: 7px;
+    border: none;
+    transition: 300ms;
+}
+ .dash-left button:hover{
+    box-shadow: 1px 1px 3px black;
+    margin-top: -9px;
+}
+.sub-left span{
+    color: var(--folder-color);
+    padding: 5px 4px;
+    font-size: 34px;
+   
+}
+ul{
+    list-style: none;
+}
+.items span{
+    color: var(--folder-color);
+    font-size: 34px;
+}
+.items p{
+    font-size: 21px;
+    padding-left: 5px;
+    color: var(--text-color);
+}
+.dropdown span{
+    color:gray;
+}
+.sub-items{
+    margin-left: 50px;
+    display: none;
+}
+.main-item{
+    cursor: pointer;
+}
+.rotate{
+    transform: rotate(90deg);
+    margin-right: 10px;
+    margin-top: -5px;
+
+
+}
+.side-menu{
+    height: 98%;
+    overflow-y: scroll;
+}
+.main-title{
+    border-bottom: 1px solid #ddcdcd;
+}
+.upper-content{
+    justify-content: space-between;
+    border-bottom: 1px solid #ddcdcd;
+}
+.left span{
+    color: var(--folder-color);
+    font-size: 34px;
+}
+.left p{
+    font-size: 21px;
+    padding-left: 5px;
+    color: var(--text-color);
+}
+.right p{
+    color: var(--folder-color);
+    font-size: 21px;
+    padding: 0px 17px;
+    cursor: pointer;
+}
+.right span{
+        font-weight: 800;
+        font-size: 28px;
+        padding: 4px 20px;
+        cursor: pointer;
+}
+.info-title{
+    justify-content: space-between;
+    border-bottom: 1px solid#ddcdcd;
+    
+}
+.info-title p{
+    font-size: 21px;
+    color: var(--text-color);
+    padding: 0px 20px;
+}
+.info-text span{
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 8px;
+    color: var(--folder-color);
+}
+.info-text p{
+    font-size: 15px;
+    color: var(--text-color);
+}
+.info{
+justify-content: space-between;
+border-bottom: 1px solid #ddcdcd;
+}
+.info .right p{
+            background: var(--folder-color);
+        border-radius: 50%;
+        padding: 9px;
+        color: white;
+        margin-right: 18px;
+    
+}
+.middle p{
+    font-size: 20px;
+}
+.items{
+    margin-top: 12px;
+}
